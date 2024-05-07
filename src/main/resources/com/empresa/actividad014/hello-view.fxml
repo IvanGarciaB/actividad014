@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.empresa.actividad014.HelloController">
+   <children>
+      <TextField fx:id="textcorreo" layoutX="280.0" layoutY="86.0" promptText="Correo electrónico" />
+      <Label layoutX="121.0" layoutY="90.0" text="Introduce correo electrónico" />
+      <PasswordField fx:id="textcontrasena" layoutX="280.0" layoutY="137.0" promptText="Contraseña" />
+      <Label layoutX="156.0" layoutY="141.0" text="Introduce contraseña" />
+      <PasswordField fx:id="textcontrasenac" layoutX="280.0" layoutY="186.0" promptText="Confirmar contraseña" />
+      <Label layoutX="157.0" layoutY="190.0" text="Confirmar contraseña" />
+      <DatePicker fx:id="fecha" layoutX="280.0" layoutY="226.0" prefHeight="25.0" prefWidth="149.0" promptText="Fecha alta" />
+      <Label layoutX="201.0" layoutY="230.0" text="Fecha de alta" />
+      <CheckBox fx:id="privacidad" layoutX="165.0" layoutY="273.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="272.0" text="Aceptar términos y condiciones de Privacidad" />
+      <Button fx:id="btn_register" layoutX="263.0" layoutY="316.0" mnemonicParsing="false" onAction="#onRegisterButtonClick" text="Registrarse" />
+      <Label fx:id="text_confirm" layoutX="164.0" layoutY="359.0" prefHeight="17.0" prefWidth="272.0" textAlignment="CENTER" />
+   </children>
+</Pane>
