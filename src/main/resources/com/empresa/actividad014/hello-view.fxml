@@ -15,6 +15,7 @@
       <Label layoutX="201.0" layoutY="230.0" text="Fecha de alta" />
       <CheckBox fx:id="privacidad" layoutX="165.0" layoutY="273.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="272.0" text="Aceptar términos y condiciones de Privacidad" />
       <Button fx:id="btn_register" layoutX="263.0" layoutY="316.0" mnemonicParsing="false" onAction="#onRegisterButtonClick" text="Registrarse" />
+      <Button fx:id="btn_login" layoutX="363.0" layoutY="316.0" mnemonicParsing="false" onAction="#onLoginButtonClick" text="Iniciar sesión" />
       <Label fx:id="text_confirm" layoutX="164.0" layoutY="359.0" prefHeight="17.0" prefWidth="272.0" textAlignment="CENTER" />
    </children>
 </Pane>
